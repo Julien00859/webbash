@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    color: silver;
+    font-family: "Roboto Mono", "Courier New", Courier, monospace;
+    cursor: none;
+}
+pre {
+    font-family: "Roboto Mono", "Courier New", Courier, monospace;
+}
+input {
+    background-color: black;
+    color: silver;
+    border: none;
+    font-family: "Roboto Mono", "Courier New", Courier, monospace;
+    width: 100%;
+}
+p, pre {
+    margin: 0;
+}
+#prompt, #secret {
+    display: flex;
+    flex-direction: row;
+}
+#secret {
+    visibility: hidden
+}
